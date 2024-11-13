@@ -1,8 +1,10 @@
 package main
 
+import "fmt"
+
 func main() {
 	// Add two numbers
-	println(Add(1, 2))
+	fmt.Println(Add(1, 2))
 }
 
 func Add(a int, b int) int {
